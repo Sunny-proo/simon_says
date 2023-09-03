@@ -4,7 +4,8 @@ let start=false;
 let btns=["red","yellow","blue","green"];
 highscore=0;
 tevel=0;
-document.addEventListener("click", function(){
+let strt=document.querySelector("#strt");
+strt.addEventListener("click", function(){
     if(start==false){
         alert(`game started`);
         start=true;
