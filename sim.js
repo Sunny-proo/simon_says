@@ -6,15 +6,6 @@ highscore=0;
 tevel=0;
 
 let h2=document.querySelector("h3");
-document.addEventListener("click", function(){   
-    if(start==false){
-        alert(`game started`);
-        start=true;
-        levelup();
-    }
-    
- 
-});
 document.addEventListener("keypress",function() {
     
     if(start==false){
