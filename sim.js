@@ -4,6 +4,14 @@ let start=false;
 let btns=["red","yellow","blue","green"];
 highscore=0;
 tevel=0;
+document.addEventListener("click", function(){
+    if(start==false){
+        alert(`game started`);
+        start=true;
+        levelup();
+    }
+    
+});
 let h2=document.querySelector("h3");
 document.addEventListener("keypress",function() {
     
